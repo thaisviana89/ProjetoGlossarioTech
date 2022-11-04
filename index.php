@@ -26,7 +26,7 @@
 
 
             <div class="img-bx">
-                <img src="imagens/tecnologia.png">
+                <img src="imagens/helloword.gif">
             </div>
         </main>
     </div>
