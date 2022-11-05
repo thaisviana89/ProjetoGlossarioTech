@@ -6,8 +6,9 @@
     font-family: 'Roboto',sans-serif;
 }
 body{
-    background-color: #e3f0ff;
+    background-color: #0A1817;
     min-height: 100vh;
+    text-align: center;
 }
 .container{
     max-width: 1500px;
@@ -27,8 +28,11 @@ nav .menu-icon{
 nav .logo a{
     font-size: 35px;
     font-weight: bold;
-    color: #5654b3;
+    color: #f1f1f3;
     text-decoration: none;
+
+   
+   
 }
 nav ul{
     display: flex;
@@ -61,6 +65,63 @@ main{
     align-items: center;
     justify-content: space-between;
 }
+
+span{
+
+        font: 700 4em/1 "Oswald", sans-serif;
+        letter-spacing: 0;
+        padding: .25em 0 .325em;
+        display: block;
+        margin: 0 auto;
+        text-shadow: 0 0 80px rgba(255, 255, 255, 0.534);
+       
+        background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	    background-clip: text;
+
+      -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+
+      -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+  }
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 6s linear infinite;
+  display: inline-block;
+      font-size: 49px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
 .text-bx{
     width: 40%;
 }
@@ -70,15 +131,17 @@ main{
 }
 .text-bx h1 b{
     color: #f1676d;
+    
 }
 .text-bx p{
     color: #372c62;
     font-weight: 400px;
-    margin-top: 20px;
+    margin-top: 20px;    
 }
 .text-bx .input-bx{
     margin: 20px 0;
     display: flex;
+    
 }
 .text-bx .input-bx input{
     width: 60%;
@@ -92,6 +155,7 @@ main{
 }
 .text-bx .input-bx input::placeholder{
     color: #8997b9;
+    text-align: center;
 }
 .text-bx .input-bx button{
     outline: none;
@@ -101,6 +165,7 @@ main{
     color: white;
     cursor: pointer;
     font-size: 15px;
+   
 }
 .medias-socias{
     margin-top: 30px;
@@ -123,6 +188,9 @@ main{
 .img-bx img{
     width: 100%;
 }
+
+
+
 @media (max-width:970px) {
     nav .menu-icon{
         display: block;
@@ -174,7 +242,7 @@ main{
 footer{
     font-size: 12px;
     font-weight: bold;
-    color: #5654b3;
+    color: #e4bff0;
     text-decoration: none;
     text-align: center;
     padding: 0%;

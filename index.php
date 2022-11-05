@@ -1,8 +1,9 @@
 <?php include('cabecalho.php'); ?>
 <section>
         <main>
+           
             <div class="text-bx">
-                <h1> Cresça o seu negócio com <b> marketing de mídia social </b> </h1>
+                <span> Cresça o seu negócio com <b> marketing de mídia social </b> </span>
                 <p>
                     Lorem Ipsum is simply dummy text of the printing and 
                     typesetting industry. Lorem Ipsum has been the
