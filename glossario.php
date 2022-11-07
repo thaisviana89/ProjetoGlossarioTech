@@ -2,31 +2,32 @@
 
 <section>
 
-    <a href="#"> A </a>
-    <a href="#"> B </a>
-    <a href="#"> C </a>
-    <a href="#"> E </a>
-    <a href="#"> F </a>
-    <a href="#"> G </a>
-    <a href="#"> G </a>
-    <a href="#"> I </a>
-    <a href="#"> J </a>
-    <a href="#"> K </a>
-    <a href="#"> L </a>
-    <a href="#"> M </a>
-    <a href="#"> N </a>
-    <a href="#"> O </a>
-    <a href="#"> P </a>
-    <a href="#"> Q </a>
-    <a href="#"> R </a>
-    <a href="#"> S </a>
-    <a href="#"> T </a>
-    <a href="#"> U </a>
-    <a href="#"> V </a>
-    <a href="#"> W </a>
-    <a href="#"> X </a>
-    <a href="#"> Y </a>
-    <a href="#"> Z </a>
+    <a href="consulta-glossario?letra=A"> A </a>
+    <a href="consulta-glossario?letra=B"> B </a>
+    <a href="consulta-glossario?letra=C"> C </a>
+    <a href="consulta-glossario?letra=D"> D </a>
+    <a href="consulta-glossario?letra=E"> E </a>
+    <a href="consulta-glossario?letra=F"> F </a>
+    <a href="consulta-glossario?letra=G"> G </a>
+    <a href="consulta-glossario?letra=H"> H </a>
+    <a href="consulta-glossario?letra=I"> I </a>
+    <a href="consulta-glossario?letra=J"> J </a>
+    <a href="consulta-glossario?letra=K"> K </a>
+    <a href="consulta-glossario?letra=L"> L </a>
+    <a href="consulta-glossario?letra=M"> M </a>
+    <a href="consulta-glossario?letra=N"> N </a>
+    <a href="consulta-glossario?letra=O"> O </a>
+    <a href="consulta-glossario?letra=P"> P </a>
+    <a href="consulta-glossario?letra=Q"> Q </a>
+    <a href="consulta-glossario?letra=R"> R </a>
+    <a href="consulta-glossario?letra=S"> S </a>
+    <a href="consulta-glossario?letra=T"> T </a>
+    <a href="consulta-glossario?letra=U"> U </a>
+    <a href="consulta-glossario?letra=V"> V </a>
+    <a href="consulta-glossario?letra=W"> W </a>
+    <a href="consulta-glossario?letra=X"> X </a>
+    <a href="consulta-glossario?letra=Y"> Y </a>
+    <a href="consulta-glossario?letra=Z"> Z </a>
 
 </section>
 
