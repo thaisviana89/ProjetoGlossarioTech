@@ -10,5 +10,5 @@ create table tbPalavra(
     link varchar(100)   
 );
 
-insert into tbpalavra values(null,'USB','descr USB','caminho img','link img');
-insert into tbpalavra values(null,'Monitor','descr monitor','caminho img','link img');
+insert into tbpalavra values(null,'USB','descr USB','imagens/usb.jpg','https://pt.wikipedia.org/wiki/USB');
+insert into tbpalavra values(null,'Monitor','descr monitor','imagens/monitor.jpg','https://pt.wikipedia.org/wiki/Monitor_de_v%C3%ADdeo');

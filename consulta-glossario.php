@@ -1,9 +1,10 @@
+<?php include('cabecalho.php')?>
+
 
 <?php
 
-	include('./painel-administrativo/conexao.php')
+	include('painel-administrativo/conexao.php');
 
-	
 	$letrarecebida = $_GET ["letra"];
 	
 	$stmt = $pdo -> prepare("select * from tbPalavra 
@@ -15,8 +16,8 @@
 		echo "$row[1] ";
 		echo "$row[2] ";
 		echo "<img src=$row[3] />";
-		echo "<a href='$row[4]'> Clique aqui para mais informações</a> ";
+		echo "<a href='$row[4]'> Clique aqui para mais informações</a>";
+	}
 
 ?>
-	
 <?php include('rodape.php'); ?>
