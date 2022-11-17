@@ -2,20 +2,20 @@
 
 <!--<h1 id="paglogin">Página expecífica para administradores</h1>-->
 
-<section>
-    <form action="painel-administrativo/login-consulta.php" method="post">
+<section class = "boxLogin container">
+    <form  class= "login" action="painel-administrativo/login-consulta.php" method="post">
 
-        <div>
+        <h1>Página expecífica para administradores</h1>
+
+        <div class= "nome">
             <input type="text" placeholder="Usuário" name="usuario"/>
         </div>
-        </br>
-        <div>
+        </br>  
+        <div class= "password">
             <input type="password" placeholder="Senha" name="senha" />
         </div>      
         </br>
-        <div>
-            <input type="submit" value="Login" />
-        </div>
+        <a href="#"><div class="btn">Sign In</div></a> 
 
     </form>
 </section>

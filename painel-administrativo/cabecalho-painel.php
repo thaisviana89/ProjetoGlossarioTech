@@ -11,24 +11,25 @@
 </head>
 
 <body>
-<header>
-<body>
-    <div class="container">
+    <header>
+        <div class="container">
         <!-- nav -->
-        <nav>
-            <div class="logo">
-                <a href="index.html">GlossárioTech</a>
-            </div>
-            <ul>
-                <li><a href="../index.php">Home</a></li>
-                <li><a href="../glossario.php">Termos & Significados</a></li>
-                <li><a href="../videos.php">Vídeos</a></li>
-                <li><a href="../index.php">Sair</a></li>
+            <nav>
+                <div class="logo">
+                    <a href="index.html">GlossárioTech</a>
+                </div>
+                <ul>
+                    <li><a href="../index.php">Home</a></li>
+                    <li><a href="../glossario.php">Termos & Significados</a></li>
+                    <li><a href="../videos.php">Vídeos</a></li>
+                    <li><a href="../index.php">Sair</a></li>
 
-            </ul>
-            <div class="menu-icon">
-                <img src="imagens/menu.png">
-            </div>
-        </nav>
+                </ul>
+                <div class="menu-icon">
+                    <img src="imagens/menu.png">
+                </div>
+            </nav>
         <!-- end nav -->
-        </header>
+        </div>
+    </header>
+</body>

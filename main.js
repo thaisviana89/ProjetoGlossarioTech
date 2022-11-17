@@ -13,3 +13,8 @@ menuBar.addEventListener('click',function(){
    menu.classList.toggle('active');
 });
 
+$("#botao-mais").click(mostraMais);
+
+function mostraMais() {
+      $(".texto").toggle();
+};

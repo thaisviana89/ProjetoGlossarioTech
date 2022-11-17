@@ -1,19 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
-    margin: 2;
-    padding: 2;
-    box-sizing: border-box;
-    font-family: 'Roboto',sans-serif;
+    margin:0;
+    padding:0;
 }
+
 body{
-    background-color: #66cbea ;
+    background-color: #a6d3e0 ;
     min-height: 100vh;
     text-align: center;
+    
+}
+
+
+.title{
+    margin: 2px;
+    font-size: 40px;
 }
 .container{
     max-width: 1500px;
-    margin: 0 auto;
+    margin: auto;
     padding: 0 4%;
+    
+}
+
+#text-para{
+    margin: 20px;
+    font-size: 25px;
 }
 nav{
     display: flex;
@@ -29,10 +42,8 @@ nav .logo a{
     font-size: 35px;
     font-weight: bold;
     color: #f1f1f3;
-    text-decoration: none;
+    text-decoration: none;  
 
-   
-   
 }
 nav ul{
     display: flex;
@@ -59,43 +70,71 @@ nav ul button{
     margin-left: 20px;
     cursor: pointer;
 }
-main{
-    margin-top: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+ 
+.boxLogin { 
+    padding:5em 0; 
+    background-color:#d9d9d925; 
+}
+.boxLogin .content {
+    padding: 0.5em; 
+}
+.login{
+    width:25%; 
+    overflow: hidden; 
+    margin:auto; 
+    display:inherit; 
+    background-color:rgba(255, 255, 255, 0.164); 
+    border-radius:4px; 
+    box-shadow: 1px 0px 3px 0px #cbcbcb; 
 }
 
-span{
 
-        font: 700 4em/1 "Oswald", sans-serif;
-        letter-spacing: 0;
-        padding: .25em 0 .325em;
-        display: block;
-        margin: 0 auto;
-        text-shadow: 0 0 80px rgba(255, 255, 255, 0.534);
-       
-        background: url(https://i.ibb.co/RDTnNrT/animated-text-fill.png) repeat-y;
-	  -webkit-background-clip: text;
-	    background-clip: text;
-
-      -webkit-text-fill-color: transparent;
-	  -webkit-animation: aitf 80s linear infinite;
-
-      -webkit-transform: translate3d(0,0,0);
-	  -webkit-backface-visibility: hidden;
-
+.nome{
+    background:#f6f8f8;
+    border: rgb(240, 233, 233) 1px solid;
+    border-bottom: #ccc 2px solid;
+    padding: 8px;
+    width:400px;
+    color:#AAAAAA;
+    margin-top:10px;
+    font-size:1em;
+    border-radius:4px;
   }
 
-@-webkit-keyframes aitf {
-	0% { background-position: 0% 50%; }
-	100% { background-position: 100% 50%; }
+  .password{
+    border-radius:4px;
+    background:#ecf0f1;
+    border: #ccc 1px solid;
+    padding: 8px;
+    width:400px;
+    font-size:1em;
+  }
+
+  .login .btn{
+  background:#2ecc71;
+  width:125px;
+  padding-top:5px;
+  padding-bottom:5px;
+  color:white;
+  border-radius:4px;
+  border: #27ae60 1px solid;
+  
+  margin-top:20px;
+  margin-bottom:20px;
+  float:left;
+  margin-left:16px;
+  font-weight:800;
+  font-size:0.8em;
 }
 
+.btn:hover{
+  background:#2CC06B; 
+}
 
 .animate-charcter
 {
-   text-transform: uppercase;
+    
+    text-transform: uppercase;
   background-image: linear-gradient(
     -225deg,
     #231557 0%,
@@ -107,13 +146,14 @@ span{
   background-clip: border-box;
   background-size: 200% auto;
   color: #fff;
+ 
   background-clip: text;
   text-fill-color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textclip 6s linear infinite;
   display: inline-block;
-      font-size: 49px;
+    font-size: 49px;
 }
 
 @keyframes textclip {
@@ -122,11 +162,16 @@ span{
   }
 }
 
+.meninahome{
+    width: 35vw;
+}
+
+
 .text-bx{
-    width: 40%;
+    width: 50%;
 }
 .text-bx h1{
-    font-size: 3rem;
+    font-size: 5rem;
     text-transform: uppercase;
 }
 .text-bx h1 b{
@@ -150,7 +195,7 @@ span{
     padding: 10px;
     border: none;
     outline: none;
-    color: #8997b9;
+    color: #0d1b3b;
     font-size: 16px;
 }
 .text-bx .input-bx input::placeholder{
@@ -161,35 +206,12 @@ span{
     outline: none;
     border: none;
     padding: 10px 20px;
-    background-color: #5654b3;
+    background-color: #3836b8;
     color: white;
     cursor: pointer;
     font-size: 15px;
    
 }
-.medias-socias{
-    margin-top: 30px;
-}
-.medias-socias a{
-    text-decoration: none;
-}
-
-.medias-socias i{
-    font-size: 23px;
-    margin: 0 3px;
-    color: white;
-    background-color: #372c62;
-    padding: 7px;
-    border-radius: 5px;
-}
-.img-bx{
-    width: 50%;
-}
-.img-bx img{
-    width: 100%;
-}
-
-
 
 @media (max-width:970px) {
     nav .menu-icon{
@@ -239,13 +261,19 @@ span{
         justify-content: center;
     }
 }
-footer{
-    font-size: 12px;
-    font-weight: bold;
-    color: #e4bff0;
-    text-decoration: none;
-    text-align: center;
-    padding: 0%;
+
+.row2{
+    display: flex;
+    flex-flow: row wrap;
+    margin: 2%;
+    justify-content: space-around;   
 }
 
+
+footer{
+   
+    height: 80px;
+    width: 85%;
+    margin: auto;
+}
 
