@@ -1,9 +1,8 @@
 <?php include('cabecalho.php'); ?>
 <section>
-        <main>
-           
-            <div class="txt-box">
-                <span class ="title" > Cresça o seu negócio com <b> marketing de mídia social </b> </span>
+        <main>  
+            <span class ="text-title" > Cresça o seu negócio com <b> marketing de mídia social </b> </span>
+            <div class="txt-box">   
                 <p id ="text-para">
                     Bem-vindos ao GlossárioTech, o nosso objetivo principal é decodificar
                     os termos mais usados <br> no mundo da tecnologia e com isso auxiliar

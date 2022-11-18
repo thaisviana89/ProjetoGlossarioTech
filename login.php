@@ -15,7 +15,7 @@
             <input type="password" placeholder="Senha" name="senha" />
         </div>      
         </br>
-        <a href="#"><div class="btn">Sign In</div></a> 
+        <a href="#"><div class="button">Sign In</div></a> 
 
     </form>
 </section>

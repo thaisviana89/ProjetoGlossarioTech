@@ -10,15 +10,14 @@
     <title>GlossárioTech</title>
 </head>
 
-<body>
-<header>
-<body>
-    <div class="container">
+<header id="header">
+        
+    <a class= "logo" href="index.php">GlossárioTech</a>
+          
+    <div>
         <!-- nav -->
         <nav>
-            <div class="logo">
-                <a href="index.html">GlossárioTech</a>
-            </div>
+            
             <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="glossario.php">Termos & Significados</a></li>
@@ -31,4 +30,5 @@
             </div>
         </nav>
         <!-- end nav -->
-        </header>
+    </div>
+</header>

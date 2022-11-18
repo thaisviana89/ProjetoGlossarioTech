@@ -8,56 +8,68 @@
 body{
     background-color: #a6d3e0 ;
     min-height: 100vh;
-    text-align: center;
-    
+    text-align: center;    
 }
 
-
-.title{
+.text-title{
+    padding: 2px;
     margin: 2px;
     font-size: 40px;
-}
-.container{
-    max-width: 1500px;
-    margin: auto;
-    padding: 0 4%;
-    
+    color: #021c24;
+    box-shadow: rgba(63, 64, 104, 0.4) -5px 5px, rgba(150, 128, 247, 0.3) -10px 10px, rgba(68, 112, 196, 0.2) -15px 15px, rgba(10, 28, 77, 0.1) -20px 20px, rgba(173, 167, 245, 0.05) -25px 25px;
 }
 
 #text-para{
+    padding: 5%;
     margin: 20px;
     font-size: 25px;
+    color: black;
 }
-nav{
+
+.logo {
+    font-family: cursive;
+    font-size: 30px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 0.5%;
+    
+}
+
+#header {
     display: flex;
+    height: 70px;
+    padding: 2.8rem;   
+    font-size: 1.4vw;
+    line-height: 60px;
+    letter-spacing: 5px;
     justify-content: space-between;
-    align-items: center;
-    height: 100px;
-}
+    
+}   
+
+
 nav .menu-icon{
     cursor: pointer;
     display: none;
 }
-nav .logo a{
-    font-size: 35px;
-    font-weight: bold;
-    color: #f1f1f3;
-    text-decoration: none;  
 
-}
 nav ul{
     display: flex;
     list-style: none;
-    align-items: center;
+    align-items: center; 
+    
 }
+
 nav ul li{
     padding: 0 15px;
+    
 }
+
 nav ul li a{
     text-decoration: none;
     font-size: 17px;
     text-transform: uppercase;
     color: #5654b3;
+    
 }
 nav ul button{
     border: none;
@@ -72,27 +84,66 @@ nav ul button{
 }
  
 .boxLogin { 
-    padding:5em 0; 
+
+     
     background-color:#d9d9d925; 
+   
+    height:100%;
+    width:100%;
+    font-family:Helvetica;
+
+    color:rgb(255, 255, 255);
+    background:rgba(0,0,0,0.13);
+    padding:30px 0px;
 }
+
 .boxLogin .content {
     padding: 0.5em; 
+   
 }
+ 
+.boxLogin input {
+    display:block;
+  width:300px;
+  margin:20px auto;
+  padding:15px;
+  background:rgba(0,0,0,0.2);
+  color:#fff;
+  border:0;
+  
+}
+
+.login .button{
+    background:#c49ff1;
+    border:0;
+    color:#fff;
+    padding:10px;
+    font-size:20px;
+    width:330px;
+    margin:20px auto;
+    display:block;
+    cursor:pointer;
+  }
+
+.button:hover{
+    background:#8d74bd; 
+  }
+
 .login{
+    text-align:center;
+    margin:30px 0;
+    font-size:20px;
     width:25%; 
     overflow: hidden; 
     margin:auto; 
     display:inherit; 
-    background-color:rgba(255, 255, 255, 0.164); 
+    background-color:rgba(255, 255, 255, 0); 
     border-radius:4px; 
-    box-shadow: 1px 0px 3px 0px #cbcbcb; 
+  
 }
-
 
 .nome{
     background:#f6f8f8;
-    border: rgb(240, 233, 233) 1px solid;
-    border-bottom: #ccc 2px solid;
     padding: 8px;
     width:400px;
     color:#AAAAAA;
@@ -110,26 +161,11 @@ nav ul button{
     font-size:1em;
   }
 
-  .login .btn{
-  background:#2ecc71;
-  width:125px;
-  padding-top:5px;
-  padding-bottom:5px;
-  color:white;
-  border-radius:4px;
-  border: #27ae60 1px solid;
-  
-  margin-top:20px;
-  margin-bottom:20px;
-  float:left;
-  margin-left:16px;
-  font-weight:800;
-  font-size:0.8em;
-}
+  .login input:focus,.login input:active,.login .button:focus,.login .button:active{
+    outline:none;
+ 
+  }
 
-.btn:hover{
-  background:#2CC06B; 
-}
 
 .animate-charcter
 {
@@ -265,13 +301,16 @@ nav ul button{
 .row2{
     display: flex;
     flex-flow: row wrap;
-    margin: 2%;
-    justify-content: space-around;   
+    margin: 2% auto;
+    justify-content: center;   
+    width: 80%;
 }
 
+.row2 div{
+    margin: 1.5em;
+}
 
-footer{
-   
+footer{  
     height: 80px;
     width: 85%;
     margin: auto;
